@@ -1,0 +1,36 @@
+.fog-container {
+  position: relative;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-top: 2rem;
+}
+
+.fog-text {
+  font-size: 2rem;
+  color: #ffffffcc;
+  z-index: 2;
+  font-weight: bold;
+}
+
+.fog {
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 200%;
+  height: 100%;
+  background: radial-gradient(ellipse at center, #ffffff22 0%, #00000000 70%);
+  animation: fogMove 10s linear infinite;
+  opacity: 0.3;
+}
+
+@keyframes fogMove {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(50%);
+  }
+}

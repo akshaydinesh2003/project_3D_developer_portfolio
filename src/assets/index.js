@@ -20,7 +20,11 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import Django from "./tech/Django.png";
+import Flask from "./tech/Flask.png";
+import Python from "./tech/python.png";
 
+import BPCL from "./company/BPCL.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -59,4 +63,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  Python,
+  Django,
+  Flask,
+  BPCL,
 };

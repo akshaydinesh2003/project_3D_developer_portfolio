@@ -5,6 +5,8 @@ import {
 } from "react-vertical-timeline-component";
 import { motion } from "framer-motion";
 
+import './Experience.css'; // <-- Fog animation styles
+
 import "react-vertical-timeline-component/style.min.css";
 
 import { styles } from "../styles";
@@ -77,6 +79,12 @@ const Experience = () => {
             />
           ))}
         </VerticalTimeline>
+
+        {/* Coming Soon Fog Animation */}
+        <div className="fog-container">
+          <div className="fog-text">More to Come...</div>
+          <div className="fog"></div>
+        </div>
       </div>
     </>
   );
